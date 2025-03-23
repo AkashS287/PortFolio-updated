@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaUser, FaCode, FaGlobe, FaBriefcase, FaGraduationCap, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import profilePic from "../assets/akash.jpg";
-
+import { TbBrandLeetcode } from "react-icons/tb";
 const aboutSections = [
   {
     id: 'about',
@@ -94,9 +94,9 @@ const aboutSections = [
         <div className="border-l-2 border-indigo-600 pl-4 space-y-4">
           <div className="relative">
             <div className="absolute -left-6 w-4 h-4 bg-indigo-600 rounded-full"></div>
-            <h4 className="font-semibold">B.Tech in Computer Science</h4>
+            <h4 className="font-semibold">BE Computer Science</h4>
             <p className="text-sm text-gray-600">2022 - 2026</p>
-            <p className="mt-2 text-gray-600">KPR Institute and Technology</p>
+            <p className="mt-2 text-gray-600">KPR Institute of Engineering and Technology</p>
           </div>
           <div className="relative">
             <div className="absolute -left-6 w-4 h-4 bg-indigo-600 rounded-full"></div>
@@ -146,6 +146,9 @@ const AboutSection = () => {
               </a>
               <a href="https://www.linkedin.com/in/akash-s-077a20303" className="text-gray-600 hover:text-indigo-600 transition-colors">
                 <FaLinkedin size={24} />
+              </a>
+              <a href="https://leetcode.com/problemset/" className="text-gray-600 hover:text-indigo-600 transition-colors">
+              <TbBrandLeetcode size={24}/>
               </a>
               {/* <a href="#" className="text-gray-600 hover:text-indigo-600 transition-colors">
                 <FaTwitter size={24} />

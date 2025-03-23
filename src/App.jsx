@@ -6,6 +6,7 @@ import About from './Components/About'
 import Projects from './Components/Projects'
 import Dummy from './Components/Dummy'
 import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
       <section id="projects"><Projects /></section>
       <Dummy/>
       <section id="contact"><Contact /></section>
+      <Footer/>
     </>
   )
 }
