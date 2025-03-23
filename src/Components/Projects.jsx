@@ -12,7 +12,7 @@ const Projects = () => {
   const data = [
     { name: "FoodWeb", image: FoodHub, link: "https://github.com/AkashS287/Project-Codes" },
     { name: "BookShop", image: BookStore, link: "https://github.com/AkashS287/Project-Codes" },
-    { name: "PortFolio", image: About, link: "https://github.com/AkashS287/portfolio.git" }
+    { name: "PortFolio", image: About, link: "https://github.com/AkashS287/PortFolio-updated.git"}
   ];
 
   const settings = {
