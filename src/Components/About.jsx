@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaUser, FaCode, FaGlobe, FaBriefcase, FaGraduationCap, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import profilePic from "../assets/akash.jpg";
+import professPic from "../assets/akashprofess.jpg";
 import { TbBrandLeetcode } from "react-icons/tb";
 const aboutSections = [
   {
@@ -131,7 +131,7 @@ const AboutSection = () => {
           <div className="w-full lg:w-1/2 flex flex-col items-center justify-start p-4 space-y-6">
             <div className="relative">
               <img
-                src={profilePic}
+                src={professPic}
                 alt="Profile"
                 className="rounded-2xl shadow-lg w-[300px] h-[400px] object-cover transition-transform duration-300 hover:scale-105"
               />
